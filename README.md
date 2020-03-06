@@ -21,7 +21,7 @@ Setup your [AWS credentials](https://serverless.com/framework/docs/providers/aws
     yarn
     serverless deploy
 
-And few should see something like:
+And you should see something like:
 ![deploy image](https://github.com/deepsyx/simple-headless-browser-serverless/blob/master/examples/deploy_cli.png?raw=true)
 
 Example
