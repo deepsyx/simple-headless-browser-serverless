@@ -73,8 +73,8 @@ Request properties
 
 | Property      | Type          | Example | Description
 | ------------- |:-------------:| -----:| -----:|
-| url      		| String	    | "https://example.com" | URl to be screenshoted 
-| html      		| String	| "<html><body>Hello world!</body></html>" | If we don't want to screenshot a url, we can manually provide the html
+| url      		| String(Optional)	    | "https://example.com" | URl to be screenshoted 
+| html      		| String(Optional)	| "<html><body>Hello world!</body></html>" | If we don't want to screenshot a url, we can manually provide the html
 | format        | String        | "pdf" or "png"     | Specifies the output format
 | viewport      | Object (optional) | viewport: { width: 1920, height: 1080 } | Specifies the browser viewport 
 
