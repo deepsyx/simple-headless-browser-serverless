@@ -1,3 +1,5 @@
+![logo](https://github.com/deepsyx/simple-headless-browser-serverless/blob/master/examples/logo.png?raw=true)
+
 The goal of this repo is to provide a basic example of how to get headless browser running on AWS at scale. 
 
 How it works
@@ -20,7 +22,7 @@ Setup your [AWS credentials](https://serverless.com/framework/docs/providers/aws
     serverless deploy
 
 And few should see something like:
-[[[[[[ insert image here ]]]]]]
+![deploy image](https://github.com/deepsyx/simple-headless-browser-serverless/blob/master/examples/deploy_cli.png?raw=true)
 
 Example
 =====
