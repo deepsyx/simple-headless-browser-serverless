@@ -1,0 +1,24 @@
+service: pdf-render # NOTE: update this with your service name
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+
+plugins:
+ - serverless-apigw-binary
+
+custom:
+  apigwBinary:
+    types:
+      - '*/*'
+
+functions:
+  hello:
+    handler: index.main
+    timeout: 30
+    memorySize: 3008
+
+    events:
+      - http:
+          path: /
+          method: post

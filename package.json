@@ -1,0 +1,21 @@
+{
+  "name": "pdfrender",
+  "version": "0.0.1",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettify": "node ./node_modules/prettier/bin-prettier --write **.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chrome-aws-lambda": "2.0.2",
+    "puppeteer-core": "2.1.0",
+    "serverless": "1.65.0",
+    "serverless-apigw-binary": "0.4.4"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
